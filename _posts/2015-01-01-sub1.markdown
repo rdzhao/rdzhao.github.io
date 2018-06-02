@@ -1,0 +1,10 @@
+---
+layout: post
+title: Subdivision Surfaces for Electromagnetic Integral Equations
+date: 2015-01-01 00:00:00 +0300
+description: # Add post description (optional)
+author: Daniel Dault, Jie Li, Beibei Liu, Rundong Zhao, Yiying Tong, Balasubramaniam Shanker
+img: sub_1.png
+pdf: assets/archive/sub_1.pdf
+tags: [Productivity, Software] # add tag
+---

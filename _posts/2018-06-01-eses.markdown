@@ -1,0 +1,11 @@
+---
+layout: post
+title: ESES &#58; Software for Eulerian Solvent Excluded Surface
+date: 2018-05-01 00:00:00 +0300
+description: # Add post description (optional)
+author: Beibei Liu, Bao Wang, Rundong Zhao, Yiying Tong, Guo-Wei Wei
+img: eses_0.png
+pdf: assets/archive/eses.pdf
+website: http://weilab.math.msu.edu/ESES
+tags: [Productivity, Software] # add tag
+---

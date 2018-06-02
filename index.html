@@ -1,30 +1,46 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: main
+---
+
+<h2 class="index-title">Summary</h2>
+<br>
+<div class="bio">
+  <p>I'm a 4th year Ph.D student at <a href="https://msu.edu/" target="_blank">Michigan State University</a> (MSU). Before joining MSU, I received my Bachelor's Degree from <a href="http://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a>. My primary research interests are geometric processing and physically based simulation. I'm also working on geometry based computitional biology.</p>
+</div> 
+
+<div class="publications">
+<h2 class="index-title">Publications</h2>
+{% for post in paginator.posts %}
+<!-- <article class="post"> -->
+  {% if post.img %}
+    <!-- <img class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" ></img> -->
+    <div class="div-img">
+    <img class="post-thumbnail" src={{"/assets/img/" | prepend: site.baseurl | append: post.img }}></img></div>
+  {% else %}
+  {% endif %}
+  
+<!-- </article> -->
+  <div class="post-content">
+    <h2 class="post-title"><!-- <a href="{{post.url | prepend: site.baseurl}}"> -->{{post.title}}<!-- </a> --></h2>
+    <!-- <p>{{ post.content | strip_html | truncatewords: 15 }}</p> -->
+    <p>{{ post.description }}</p>
+    <p>{{ post.author }}</p>
+
+    {% if post.pdf %}
+      <a class="paper-pdf-link" href="{{post.pdf}}" target="_blank">PDF</a>
+    {% endif %}
+
+    {% if post.website %}
+      <a class="paper-pdf-link" href="{{post.website}}" target="_blank">Website</a>
+    {% endif %}    
+
+    <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span> -->
+    <!-- <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span> -->
+  </div>
+{% endfor %}
+
+
+
+</div>
+<!-- {% include pagination.html %}
+ -->
