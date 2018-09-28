@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Isogeometric Analysis of Integeal Equations using Subdivision
+categories: [pub]
 date: 2015-01-01 00:00:00 +0300
 description: IEEE International Symposium on Antennas and Propagation & USNC/URSI National Radio Science Meeting, 2015
 author: Jie Li, Daniel Dault, Rundong Zhao, Beibei Liu, Yiying Tong, Balasubramaniam Shanker

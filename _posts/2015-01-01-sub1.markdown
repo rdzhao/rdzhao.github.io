@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Subdivision Surfaces for Electromagnetic Integral Equations
+categories: [pub]
 date: 2015-01-01 00:00:00 +0300
 description: IEEE International Symposium on Antennas and Propagation & USNC/URSI National Radio Science Meeting, 2015
 author: Daniel Dault, Jie Li, Beibei Liu, Rundong Zhao, Yiying Tong, Balasubramaniam Shanker
