@@ -6,6 +6,8 @@ description: Acceppted by European Conference on Computational Biology, 2018 # A
 author: Rundong Zhao, Zixuan Cang, Yiying Tong, Guo-Wei Wei.
 img: ppd_0.png
 pdf: assets/archive/ppd.pdf
-website: http://weilab.math.msu.edu/PPD
+website: https://academic.oup.com/bioinformatics/article/34/17/i830/5093253
+server: http://weilab.math.msu.edu/PPD
+source_code: https://github.com/rdzhao/ProteinPocketDetection
 tags: [Productivity, Software] # add tag
 ---

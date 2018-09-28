@@ -34,6 +34,14 @@ layout: main
       <a class="paper-pdf-link" href="{{post.website}}" target="_blank">Website</a>
     {% endif %}    
 
+    {% if post.server %}
+      <a class="paper-pdf-link" href="{{post.server}}" target="_blank">Server</a>
+    {% endif %}
+
+    {% if post.source_code %}
+      <a class="paper-pdf-link" href="{{post.source_code}}" target="_blank">SourceCode</a>
+    {% endif %}    
+
     <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span> -->
     <!-- <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span> -->
   </div>

@@ -6,6 +6,8 @@ description: Journal of computational chemistry 38 (7), 446-466, 2017
 author: Beibei Liu, Bao Wang, Rundong Zhao, Yiying Tong, Guo-Wei Wei
 img: eses_0.png
 pdf: assets/archive/eses.pdf
-website: http://weilab.math.msu.edu/ESES
+server: http://weilab.math.msu.edu/ESES
+website: https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.24682
+source_code: 
 tags: [Productivity, Software] # add tag
 ---
