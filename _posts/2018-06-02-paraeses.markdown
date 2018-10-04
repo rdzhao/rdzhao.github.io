@@ -8,5 +8,6 @@ author: Rundong Zhao, Menglun Wang, Yiying Tong, Guo-Wei Wei.
 img: paraeses.png
 pdf: assets/archive/paraeses.pdf
 website: https://arxiv.org/abs/1809.04352
+source_code: https://github.com/rdzhao/ESES
 tags: [Productivity, Software] # add tag
 ---

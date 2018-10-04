@@ -9,6 +9,6 @@ img: eses_0.png
 pdf: assets/archive/eses.pdf
 server: http://weilab.math.msu.edu/ESES
 website: https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.24682
-source_code: 
+source_code: https://github.com/rdzhao/ESES
 tags: [Productivity, Software] # add tag
 ---
