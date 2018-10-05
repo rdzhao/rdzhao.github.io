@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ProteinPocketDetection
+title: PPD
 categories: [software]
 date: 2018-09-11 00:00:00 +0300
 description: Protein pocket detection with geometric features and hierarchy. User can control the output pockets by specifying the required depth, cross-section area and volume.
 img: soft_ppd.png
-source_code: https://github.com/rdzhao/ProteinPocketDetection
+source_code: https://github.com/rdzhao/PPD
 tags: [Productivity, Software] # add tag
 ---
