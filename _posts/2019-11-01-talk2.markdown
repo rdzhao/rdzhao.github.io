@@ -1,0 +1,10 @@
+---
+layout: post
+title: 3D hodge decompositions of edge-and face-based vector fields
+categories: [talk]
+date: 2019-11-01 00:00:00 +0300
+description: The 12th ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia. 17 – 20 November 2019, BCEC, Brisbane, Australia. Event type - Technical Papers, Composing and Decomposing Geometry.
+img: sa19.png
+website: http://sa2019.conference-program.com/
+tags: [Productivity, Software] # add tag
+---
