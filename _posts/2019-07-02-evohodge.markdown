@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Protein Pocket Detection via Convex Hull Surface Evolution and Associated Reeb Graph
+title: Evolutionary de Rham-Hodge Method
 categories: [pub]
-date: 2018-05-05 00:00:00 +0300
-description: Bioinformatics, Volume 34, Issue 17, 1 September 2018, Pages i830–i837
-author: Rundong Zhao, Zixuan Cang, Yiying Tong, Guo-Wei Wei.
-img: ppd_0.png
-pdf: assets/archive/ppd.pdf
-website: https://academic.oup.com/bioinformatics/article/34/17/i830/5093253
-server: http://weilab.math.msu.edu/PPD
-source_code: https://github.com/rdzhao/ProteinPocketDetection
+date: 2019-02-01 00:00:00 +0300
+description: Submitted to Discrete and Continuous Dynamical Systems
+author: Jiahui Chen, Rundong Zhao, Yiying Tong, Guo-Wei Wei
+img: evohodge.png
+pdf: assets/archive/evohodge.pdf
+website: https://arxiv.org/abs/1912.12388
 tags: [Productivity, Software] # add tag
 ---
