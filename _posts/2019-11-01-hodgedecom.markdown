@@ -8,5 +8,6 @@ author: Rundong Zhao, Mathieu Desbrun, Guo-Wei Wei, Yiying Tong
 img: hodgedecom.png
 pdf: assets/archive/hodgedecom.pdf
 website: https://dl.acm.org/doi/10.1145/3355089.3356546
+source_code: https://github.com/rdzhao/3DHodgeDecomposition
 tags: [Productivity, Software] # add tag
 ---
