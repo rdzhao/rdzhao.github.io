@@ -1,0 +1,10 @@
+---
+layout: post
+title: FLIP
+categories: [software]
+date: 2019-11-01 00:00:00 +0300
+description: This is a prototype of Fluid Implicit Particle (FLIP) for fluid simulation which is widely applied in movie and game industry.
+img: soft_flip.png
+source_code: https://github.com/rdzhao/FluidImplicitParticle
+tags: [Productivity, Software] # add tag
+---
